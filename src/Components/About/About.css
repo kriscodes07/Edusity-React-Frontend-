@@ -1,0 +1,54 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.aboutleft{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.aboutright{
+    justify-content: start;
+    flex-basis: 56%;
+}
+.aboutimage{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.playicon {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.playicon:hover {
+    transform: translate(-50%, -50%) scale(1.3);
+    opacity: 1;
+}
+
+
+.about h3{
+    font-weight: 600;
+    font-size: 40px;
+    color: #212ea0;
+}
+.about h2{
+    font-weight: 600;
+    font-size: 70px;
+    color: #000f38;
+    margin: 10px 0;
+}
+
+.about p{
+    color: #5c5c5c;
+    margin-bottom: 15px;
+}

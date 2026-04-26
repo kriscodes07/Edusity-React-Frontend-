@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.title p{
+    color: navy;
+    font-weight: 700;
+}
+
+.title h2{
+    font-size: 32px;
+    text-transform: none;
+    
+}
