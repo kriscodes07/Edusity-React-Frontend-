@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
+import Gallary from './Components/Gallary/Gallary'
 
 
 
@@ -18,6 +19,8 @@ function App() {
      <Programs/>
      <About/>
       <Title title="Gallary" subtitle="Campus Photos" />
+      <Gallary/>
+        <Title title="Testimonials" subtitle="What Student Says " />
     </>
   )
 }

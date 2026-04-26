@@ -1,0 +1,40 @@
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.images img{
+    width: 20%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.btn1{
+    background-color: rgb(29, 22, 122);
+    color: aliceblue;
+    padding: 10px;
+   width: 5cm;
+   margin-top: 50px;
+   display: flex;
+   gap: 10px;
+   font-size: 20px
+}
+
+.btn1 img{
+    width: 35px;
+    
+}
+
+
+
+.gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1in;
+}
