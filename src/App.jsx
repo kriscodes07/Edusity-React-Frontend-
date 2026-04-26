@@ -5,6 +5,7 @@ import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Gallary from './Components/Gallary/Gallary'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 
 
@@ -20,7 +21,10 @@ function App() {
      <About/>
       <Title title="Gallary" subtitle="Campus Photos" />
       <Gallary/>
-        <Title title="Testimonials" subtitle="What Student Says " />
+        <Title title="Testimonials" subtitle="What Student Says "  />
+
+        <Testimonials/>
+          <Title title="Contact Us" subtitle="Get In Touch "  />
     </>
   )
 }

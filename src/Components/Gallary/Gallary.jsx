@@ -16,7 +16,7 @@ const Gallary = () => {
             <img src={g3} alt="" />
             <img src={g4} alt="" />
         </div>
-                <button className='btn btn1'>See more <img src={darkarrow} alt="" /> </button>
+                <button className='btn btn1'>See more <img src={darkarrow} alt=""  className='dark-btn'/> </button>
         
       
     </div>
